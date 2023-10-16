@@ -12,6 +12,7 @@
 @import "parts/tabsbar.css";
 @import "parts/findbar.css";
 @import "parts/dialogs.css";
+@import "parts/notification.css";
 @import "parts/video-player.css";
 @import "parts/remove-white-flash.css";
 @import "parts/custom-icons.css";
@@ -26,4 +27,9 @@
 	background-size: contain;
 	content: "Firefox Monterey theme";
 	padding: 10px 10px 10px 50px;
+}
+
+#customization-container {
+	background-color: var(--gnome-browser-before-load-background) !important;
+	color: var(--gnome-toolbar-color) !important;
 }

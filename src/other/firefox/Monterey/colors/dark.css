@@ -11,6 +11,8 @@
 	--gnome-browser-before-load-background: #242424;
 	--gnome-browser-content-box-background: #323232;
 	--theme-primary-color: #315bef;
+	--theme-primary-hover-color: #5073f1;
+	--theme-primary-active-color: #6584f3;
 
 	/* Toolbars */
 	--gnome-toolbar-background: #373737;
@@ -84,7 +86,7 @@
 	/* URL bar */
 	--gnome-urlbar-background: #505050;
 	--gnome-urlbar-border-color: #282828;
-	--gnome-urlbar-box-shadow: inset 0 0 0 1px rgba(21, 83, 158, 0);
+	--gnome-urlbar-box-shadow: 0 3px 6px 1px rgba(0,0,0, .2), 0 5px 16px 3px rgba(0,0,0, .15), 0 0 0 1px rgba(0, 0, 0, 0.75);
 	--gnome-urlbar-color: #ffffff;
 	--gnome-hover-urlbar-border-color: #585858;
 	--gnome-inactive-urlbar-background: #424242;
@@ -113,12 +115,16 @@
 	--gnome-tab-attention-icon-color: #718be8;
 
 	/* Switch */
-	--gnome-switch-background: #282828;
-	--gnome-switch-border-color: #1b1b1b;
+	--gnome-switch-background: #464646;
+	--gnome-switch-hover-background: #525252;
+	--gnome-switch-active-background: #606060;
+	--gnome-switch-border-color: transparent;
 	--gnome-switch-slider-background: linear-gradient(to bottom, #3c3c3c 20%, #353535 90%);
 	--gnome-switch-slider-border-color: #111111;
 	--gnome-switch-slider-box-shadow: inset 0 1px rgba(255, 255, 255, 0.02), 0 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.07);
-	--gnome-switch-active-background: #15539e;
+	--gnome-switch-pressed-background: #315bef;
+	--gnome-switch-pressed-hover-background: #5073f1;
+	--gnome-switch-pressed-active-background: #6584f3;
 	--gnome-switch-active-border-color: #030c17;
 	--gnome-switch-active-slider-border-color: #030c17;
 

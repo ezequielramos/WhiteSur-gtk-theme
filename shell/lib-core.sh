@@ -90,7 +90,7 @@ COLOR_VARIANTS=('Light' 'Dark')
 OPACITY_VARIANTS=('normal' 'solid')
 ALT_VARIANTS=('normal' 'alt')
 THEME_VARIANTS=('default' 'blue' 'purple' 'pink' 'red' 'orange' 'yellow' 'green' 'grey')
-ICON_VARIANTS=('standard' 'simple' 'gnome' 'ubuntu' 'tux' 'arch' 'manjaro' 'fedora' 'debian' 'void' 'opensuse' 'popos' 'mxlinux' 'zorin')
+ICON_VARIANTS=('standard' 'simple' 'gnome' 'ubuntu' 'tux' 'arch' 'manjaro' 'fedora' 'debian' 'void' 'opensuse' 'popos' 'mxlinux' 'zorin' 'budgie' 'gentoo')
 SIDEBAR_SIZE_VARIANTS=('default' '180' '220' '240' '260' '280')
 PANEL_OPACITY_VARIANTS=('default' '30' '45' '60' '75')
 PANEL_SIZE_VARIANTS=('default' 'smaller' 'bigger')
@@ -721,7 +721,7 @@ udo() {
 
 full_sudo() {
   if [[ ! -w "/root" ]]; then
-    prompt -e "ERROR: '${1}' needs a root priviledge. Please run this '${0}' as root"
+    prompt -e "ERROR: '${1}' needs a root privilege. Please run this '${0}' as root"
     has_any_error="true"
   fi
 }
